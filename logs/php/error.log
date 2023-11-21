@@ -15,3 +15,21 @@ Stack trace:
   thrown in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 5
 [19-Nov-2023 12:47:03 UTC] PHP Parse error:  syntax error, unexpected identifier "university_files" in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
 [19-Nov-2023 12:47:03 UTC] PHP Parse error:  syntax error, unexpected identifier "university_files" in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[21-Nov-2023 17:31:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php:40
+Stack trace:
+#0 C:\Users\nacho\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\nacho\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\nacho\\...')
+#2 C:\Users\nacho\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\nacho\\...')
+#3 {main}
+  thrown in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 40
+[21-Nov-2023 17:31:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php:40
+Stack trace:
+#0 C:\Users\nacho\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\nacho\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\nacho\\...')
+#2 C:\Users\nacho\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\nacho\\...')
+#3 {main}
+  thrown in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 40
+[21-Nov-2023 17:32:08 UTC] PHP Warning:  Undefined variable $findChidrenOf in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 44
+[21-Nov-2023 17:32:11 UTC] PHP Warning:  Undefined variable $findChidrenOf in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 44
+[21-Nov-2023 17:32:12 UTC] PHP Warning:  Undefined variable $findChidrenOf in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 44
+[21-Nov-2023 17:32:24 UTC] PHP Warning:  Undefined variable $findChidrenOf in C:\Users\nacho\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 44

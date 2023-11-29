@@ -14,7 +14,8 @@ function university_post_types() {
             'all_items' => 'All Events'
         ),
         'menu_icon' => 'dashicons-calendar-alt',
-        'has_archive'=> true
+        'has_archive'=> true,
+        'supports' => array('title', 'editor','excerpt')
     ));
 }
 
